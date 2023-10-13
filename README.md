@@ -105,3 +105,15 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [GitHub's Learning Lab](https://lab.github.com/)
 * [Education community forum](https://education.github.community/)
 * [GitHub community forum](https://github.community/)
+
+## Your First Exercise
+Joe's Pizza Palace needs a program to calculate the number of slices a pizza of any size can be divided into.
+The program should perform the following steps:
+
+       *(A) Ask the user for the diameter of the pizza in inches.
+       *(B) Divide the diameter by 2 to get the radius.
+       *(C) Calculate the number of slices that may be taken from a pizza of that size if each slice has an area of 14.125 square inches.
+       *(D) Display a message telling the number of slices.
+
+ The number of square inches in the total pizza can be calculated using the formula Area = PI * radius * radius  use the pow(radius, 2) function in C++ where PI is a constant and has the value 3.14
+ Display the number of slices as a whole number (no decimals).
